@@ -2,7 +2,7 @@ $userName = ($env:USERPROFILE -split '\\')[2]
 
 Write-Output "Stopping processes (Prism Releases 1.3-5, PowerShell, xsdzxc, nexusloader)"
 Stop-Process -Name "Prism Release V1.4.exe", "powershell.exe", "xsdzxc.exe", "nexusloader.exe" -Force -ErrorAction SilentlyContinue
-Stop-Process -Name "Prism Release V1.5.exe", "Prism Release V1.3.exe", "Prism Executor.exe", "Windows Runtime", "nexusloader.exe", "prism.exe", "nyfcwl.exe", "Intel Graphics Processor" -Force -ErrorAction SilentlyContinue
+Stop-Process -Name "Prism Release V1.5.exe", "Prism Release V1.3.exe", "Prism Executor.exe", "nexusloader.exe", "prism.exe", "nyfcwl.exe", "Intel Graphics Processor" -Force -ErrorAction SilentlyContinue
 Write-Output "Processes stopped"
 
 Write-Output "Deleting executables"
