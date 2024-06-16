@@ -31,7 +31,6 @@ Write-Output "Deleted executables"
 
 Write-Output "Removing registry entries (Persistence)"
 $registryEntries = @(
-    "Prism Release V1.4.exe",
     "xsdzxc.exe",
     "nexusloader.exe",
     "Prism Release V1.5.exe",
