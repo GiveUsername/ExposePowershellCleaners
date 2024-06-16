@@ -90,7 +90,7 @@ Write-Output "Cleaning roaming and cached files"
 Remove-Item -Path "C:\Users$userName\AppData\Roaming\encabezado" -Recurse -Force -ErrorAction SilentlyContinue
 Write-Output "Finished cleaning roaming and cached"
 
-Write-Output "ggez bye bye malware"
+Write-Output "ggez bye bye frinkle"
 Write-Output "credit to nspe lol"
 Write-Output "------------------"
 Write-Output "JOIN THE DISCORD: discord.gg/2fSx3nBzxb"
